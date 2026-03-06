@@ -10,7 +10,7 @@ The dataset contains information about loan applicants such as:
 Target variable:
 • Loan_Status (Approved / Not Approved)
 
-⚙️ Technologies Used
+⚙️ Technologies Used: 
 • Python
 • Pandas
 • NumPy
@@ -18,7 +18,7 @@ Target variable:
 • Matplotlib / Seaborn
 • Jupyter Notebook
 
-🧠 Machine Learning Models Used
+🧠 Machine Learning Models Used: 
 The following classification algorithms were implemented:
 • Logistic Regression
 • K-Nearest Neighbors (KNN)
