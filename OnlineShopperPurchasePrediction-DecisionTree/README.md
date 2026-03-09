@@ -1,9 +1,9 @@
-- Online Shopper Purchase Prediction using Decision Tree
+# Online Shopper Purchase Prediction using Decision Tree
 
-- Project Overview
+## Project Overview
 This project predicts whether an online website visitor will generate revenue (make a purchase) based on their browsing session data. The model is built using a Decision Tree Classifier and optimized using hyperparameter tuning.
 
-- Dataset
+## Dataset
 The dataset used is **online_shoppers.csv**, which contains information about online visitor sessions including:
 
 - Administrative pages visited
@@ -19,19 +19,19 @@ The dataset used is **online_shoppers.csv**, which contains information about on
 Target Variable:
 - **Revenue** (1 = Purchase, 0 = No Purchase)
 
-Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
 - Jupyter Notebook
 
-Machine Learning Workflow
+## Machine Learning Workflow
 
-1. Data Loading
+### 1. Data Loading
 The dataset is loaded using pandas.
 
-2. Data Preprocessing
+### 2. Data Preprocessing
 Two types of preprocessing are applied:
 
 - **StandardScaler** for numerical features
@@ -61,3 +61,5 @@ Parameters tuned:
 
 ## Results
 The model performance is evaluated using the **F1 score**, which balances precision and recall and is suitable for imbalanced classification problems.
+
+## Files in this Repository
